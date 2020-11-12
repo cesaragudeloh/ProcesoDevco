@@ -23,6 +23,7 @@ log/
 
 # Gradle
 */.gradle/*
+*/gradle/*
 .gradle/*
 */.gradle
 */build/
