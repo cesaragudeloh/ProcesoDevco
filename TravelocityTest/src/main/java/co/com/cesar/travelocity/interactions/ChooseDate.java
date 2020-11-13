@@ -6,9 +6,6 @@ import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.targets.Target;
 
-
-import static co.com.cesar.travelocity.userinterfaces.HomePage.*;
-
 public class ChooseDate implements Interaction {
 
     private String day = "15";

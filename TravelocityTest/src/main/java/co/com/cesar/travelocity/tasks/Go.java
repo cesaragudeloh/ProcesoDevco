@@ -1,6 +1,7 @@
 package co.com.cesar.travelocity.tasks;
 
 import co.com.cesar.travelocity.userinterfaces.HomePage;
+import co.com.cesar.travelocity.userinterfaces.HotelPage;
 import net.serenitybdd.core.steps.Instrumented;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;

@@ -5,14 +5,13 @@ import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 import static co.com.cesar.travelocity.utils.Constants.*;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.Matchers.equalTo;
-import static co.com.cesar.travelocity.userinterfaces.HotelResult.*;
+import static co.com.cesar.travelocity.userinterfaces.HotelResultsPage.*;
 
 import co.com.cesar.travelocity.models.Hotel;
 import co.com.cesar.travelocity.questions.GetText;
 import co.com.cesar.travelocity.tasks.ChooseHotel;
 import co.com.cesar.travelocity.tasks.Go;
-import co.com.cesar.travelocity.tasks.Search;
-import co.com.cesar.travelocity.utils.Constants;
+import co.com.cesar.travelocity.tasks.SearchHotel;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -32,7 +31,7 @@ public class FindHotelStepDefinitions {
     @When("^look for a hotel$")
     public void lookForAHotel(List<Hotel> withTheData) {
         theActorInTheSpotlight().attemptsTo(
-                Search.theSystem(FOR_A_HOTEL, withTheData)
+                SearchHotel.withTheData(withTheData)
         );
     }
 

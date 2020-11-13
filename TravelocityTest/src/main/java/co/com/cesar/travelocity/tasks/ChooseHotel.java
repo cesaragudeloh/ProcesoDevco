@@ -1,8 +1,7 @@
 package co.com.cesar.travelocity.tasks;
 
 import static co.com.cesar.travelocity.utils.Constants.*;
-import static co.com.cesar.travelocity.userinterfaces.HotelResult.*;
-import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isNotVisible;
+import static co.com.cesar.travelocity.userinterfaces.HotelResultsPage.*;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 import co.com.cesar.travelocity.interactions.Change;

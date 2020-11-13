@@ -1,5 +1,5 @@
 #language:en
-#Author: cesar.agudelo.h@gmail.com
+#Author:cesar.agudelo.h@gmail.com
 
 Feature: find hotels in the system, using the different search options
 

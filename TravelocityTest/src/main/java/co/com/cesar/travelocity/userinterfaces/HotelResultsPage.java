@@ -3,7 +3,7 @@ package co.com.cesar.travelocity.userinterfaces;
 import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.screenplay.targets.Target;
 
-public class HotelResult {
+public class HotelResultsPage {
 
     public static final Target SHORT_BY = Target.the("Short by option").located(By.id("sort"));
     public static final Target SEARCHING_LABEL = Target.the("Searching label").locatedBy("//div[contains(text(),'Searching thousands of properties')]");

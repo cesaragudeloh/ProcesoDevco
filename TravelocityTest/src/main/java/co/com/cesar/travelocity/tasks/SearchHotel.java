@@ -1,13 +1,17 @@
-package co.com.cesar.travelocity.interactions;
+package co.com.cesar.travelocity.tasks;
 
+import co.com.cesar.travelocity.interactions.ChooseDate;
+import co.com.cesar.travelocity.interactions.ChooseOption;
 import co.com.cesar.travelocity.models.Hotel;
 import net.serenitybdd.core.steps.Instrumented;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
+import java.util.List;
 
-import static co.com.cesar.travelocity.userinterfaces.HomePage.*;
+import static co.com.cesar.travelocity.utils.Constants.*;
+import static co.com.cesar.travelocity.userinterfaces.HotelPage.*;
 
 public class SearchHotel implements Interaction {
 
@@ -20,6 +24,7 @@ public class SearchHotel implements Interaction {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
+                ChooseOption.inTheMenu(FOR_A_HOTEL),
                 Click.on(GOING_TO_OPTION),
                 Enter.theValue(hotel.getGoinTo()).into(GOING_TO_INPUT),
                 Click.on(FIRST_RESULT),
@@ -37,7 +42,7 @@ public class SearchHotel implements Interaction {
     }
 
 
-    public static SearchHotel withTheData(Hotel hotel) {
-        return Instrumented.instanceOf(SearchHotel.class).withProperties(hotel);
+    public static SearchHotel withTheData(List<Hotel> hotel) {
+        return Instrumented.instanceOf(SearchHotel.class).withProperties(hotel.get(0));
     }
 }
