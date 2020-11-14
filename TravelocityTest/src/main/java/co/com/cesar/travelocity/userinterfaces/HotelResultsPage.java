@@ -5,7 +5,7 @@ import net.serenitybdd.screenplay.targets.Target;
 
 public class HotelResultsPage {
 
-    public static final Target SHORT_BY = Target.the("Short by option").located(By.id("sort"));
+    public static final Target SORT_BY = Target.the("Short by option").located(By.id("sort"));
     public static final Target SEARCHING_LABEL = Target.the("Searching label").locatedBy("//div[contains(text(),'Searching thousands of properties')]");
     public static final Target FIRST_HOTEL = Target.the("First hotel").locatedBy("//section[@class='results']/ol/li[1]/div/section/div[1]/div/div[5]");
     public static final Target RESERVE_A_ROOM_BUTTON = Target.the("Reserve a room").locatedBy("//button[@data-stid='sticky-button']");

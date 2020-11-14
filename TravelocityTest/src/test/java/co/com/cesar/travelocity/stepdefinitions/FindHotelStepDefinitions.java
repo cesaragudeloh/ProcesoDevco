@@ -28,15 +28,15 @@ public class FindHotelStepDefinitions {
         );
     }
 
-    @When("^look for a hotel$")
-    public void lookForAHotel(List<Hotel> withTheData) {
+    @When("^looking for a hotel$")
+    public void lookingForAHotel(List<Hotel> withTheData) {
         theActorInTheSpotlight().attemptsTo(
                 SearchHotel.withTheData(withTheData)
         );
     }
 
-    @And("^reserve the cheapest hotel$")
-    public void reserveTheCheapestHotel() {
+    @And("^locate the cheapest hotel$")
+    public void locateTheCheapestHotel() {
         theActorInTheSpotlight().attemptsTo(
                 ChooseHotel.withCriteria(PRICE)
         );

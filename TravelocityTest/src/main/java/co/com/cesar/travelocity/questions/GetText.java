@@ -22,7 +22,7 @@ public class GetText implements Question<String> {
     @Override
     public String answeredBy(Actor actor) {
         actor.attemptsTo(
-                WaitUntil.the(target, isVisible()).forNoMoreThan(20).seconds(),
+                //WaitUntil.the(target, isVisible()).forNoMoreThan(20).seconds(),
                 MoveMouse.to(target)
         );
         return Text.of(target).viewedBy(actor).asString();

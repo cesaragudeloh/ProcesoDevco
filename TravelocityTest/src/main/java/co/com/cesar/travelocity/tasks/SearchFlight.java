@@ -24,6 +24,7 @@ public class SearchFlight implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
+        actor.remember(FLIGHT, flight);
         actor.attemptsTo(
                 ChooseOption.inTheMenu(FOR_A_FLIGHT),
                 Click.on(ONE_WAY_OPTION),
