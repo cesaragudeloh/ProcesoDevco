@@ -23,7 +23,7 @@ public class ChooseHotel implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                SelectFromOptions.byVisibleText(PRICE).from(SORT_BY),
+                SelectFromOptions.byVisibleText(criteria).from(SORT_BY),
                 WaitUntil.the(FIRST_HOTEL, isVisible()).forNoMoreThan(20).seconds(),
                 Click.on(FIRST_HOTEL),
                 Change.toNewWindow(),

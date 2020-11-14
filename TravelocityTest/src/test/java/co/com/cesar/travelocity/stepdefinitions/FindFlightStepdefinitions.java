@@ -10,11 +10,7 @@ import co.com.cesar.travelocity.models.Flight;
 import co.com.cesar.travelocity.tasks.ChooseFlight;
 import co.com.cesar.travelocity.tasks.SearchFlight;
 import co.com.cesar.travelocity.questions.GetText;
-import co.com.cesar.travelocity.utils.Constants;
-import cucumber.api.java.en.And;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
-
+import cucumber.api.java.en.*;
 import java.util.List;
 
 public class FindFlightStepdefinitions {

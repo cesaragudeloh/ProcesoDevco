@@ -1,10 +1,9 @@
 package co.com.cesar.travelocity.userinterfaces;
 
 import net.serenitybdd.core.annotations.findby.By;
-import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
 
-public class HotelPage extends PageObject {
+public class HotelPage{
 
 
     public static final Target GOING_TO_OPTION = Target.the("Goin to Option").locatedBy("//button[@aria-label='Going to']");
