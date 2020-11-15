@@ -17,9 +17,9 @@ public class FindFlightStepdefinitions {
 
 
     @When("^looking for a one way flight$")
-    public void lookingForAOnewayFlight(List<Flight> withTheData) {
+    public void lookingForAOnewayFlight(List<Flight> flights) {
         theActorInTheSpotlight().attemptsTo(
-                SearchFlight.whitTheData(withTheData)
+                SearchFlight.whitTheData(flights)
         );
     }
 

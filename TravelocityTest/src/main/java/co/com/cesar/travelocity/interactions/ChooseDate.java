@@ -6,6 +6,8 @@ import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.targets.Target;
 
+import static co.com.cesar.travelocity.userinterfaces.HomePage.SAVE_DATE_BUTTON;
+
 public class ChooseDate implements Interaction {
 
     private String day = "15";
@@ -23,7 +25,8 @@ public class ChooseDate implements Interaction {
     public <T extends Actor> void performAs(T actor) {
         Target calendar = Target.the("Choose date").locatedBy("//div[@class='uitk-new-date-picker-month']/h2[text()='" + month + " " + year + "']/../table/tbody/tr/td/button[contains(@data-day, '" + day + "')]");
         actor.attemptsTo(
-                Click.on(calendar)
+                Click.on(calendar),
+                Click.on(SAVE_DATE_BUTTON)
         );
     }
 

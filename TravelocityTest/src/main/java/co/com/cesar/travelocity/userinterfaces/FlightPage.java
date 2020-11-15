@@ -14,5 +14,4 @@ public class FlightPage {
     public static final Target FIRST_RESULT_DESTINATION = Target.the("First Result").locatedBy("//*[@id='location-field-leg1-destination-menu']/div[2]/ul/li[1]/button");
     public static final Target DEPARTING_OPTION = Target.the("Departing option").located(By.id("d1-btn"));
     public static final Target SAVE_DATE_BUTTON = Target.the("Save changes and close the date picker").locatedBy("//button[@data-stid='apply-date-picker']");
-    public static final Target SEARCH_FLIGHT_BUTTON = Target.the("Search hotel").locatedBy("//button[@data-testid='submit-button']");
 }

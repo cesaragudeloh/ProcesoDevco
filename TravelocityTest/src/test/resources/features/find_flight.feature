@@ -4,8 +4,8 @@
 Feature: find flights in the system, using the different search options
 
 
-  @FindTheCheapestFlight
-  Scenario: Find the cheapest return one way
+  @FindAFlight
+  Scenario: Find a flight one way
     Given go to the Travelocity homepage
     When looking for a one way flight
       | leavingFrom | goingTo   | departing        | adults | children | airline |

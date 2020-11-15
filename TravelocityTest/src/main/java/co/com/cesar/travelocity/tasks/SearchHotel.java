@@ -12,6 +12,7 @@ import java.util.List;
 
 import static co.com.cesar.travelocity.utils.Constants.*;
 import static co.com.cesar.travelocity.userinterfaces.HotelPage.*;
+import static co.com.cesar.travelocity.userinterfaces.HomePage.SEARCH_BUTTON;
 
 public class SearchHotel implements Interaction {
 
@@ -30,14 +31,12 @@ public class SearchHotel implements Interaction {
                 Click.on(FIRST_RESULT),
                 Click.on(CHECK_IN_OPTION),
                 ChooseDate.inTheCalendar(hotel.getCheckIn()),
-                Click.on(SAVE_DATE_BUTTON),
                 Click.on(CHECK_OUT_OPTION),
                 ChooseDate.inTheCalendar(hotel.getCheckOut()),
-                Click.on(SAVE_DATE_BUTTON),
                 Click.on(TRAVELERS_OPTION),
                 Click.on(DECREASE_ADULTS_BUTTON),
                 Click.on(SAVE_TRAVELERS_BUTTON),
-                Click.on(SEARCH_HOTEL_BUTTON)
+                Click.on(SEARCH_BUTTON)
         );
     }
 

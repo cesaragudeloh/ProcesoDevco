@@ -2,6 +2,7 @@ package co.com.cesar.travelocity.tasks;
 
 import static co.com.cesar.travelocity.utils.Constants.*;
 import static co.com.cesar.travelocity.userinterfaces.FlightPage.*;
+import static co.com.cesar.travelocity.userinterfaces.HomePage.SEARCH_BUTTON;
 
 import co.com.cesar.travelocity.interactions.ChooseDate;
 import co.com.cesar.travelocity.interactions.ChooseOption;
@@ -35,8 +36,7 @@ public class SearchFlight implements Task {
                 Click.on(FIRST_RESULT_DESTINATION),
                 Click.on(DEPARTING_OPTION),
                 ChooseDate.inTheCalendar(flight.getDeparting()),
-                Click.on(SAVE_DATE_BUTTON),
-                Click.on(SEARCH_FLIGHT_BUTTON)
+                Click.on(SEARCH_BUTTON)
         );
     }
 

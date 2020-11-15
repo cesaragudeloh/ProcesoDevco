@@ -27,9 +27,9 @@ public class FindHotelStepDefinitions {
     }
 
     @When("^looking for a hotel$")
-    public void lookingForAHotel(List<Hotel> withTheData) {
+    public void lookingForAHotel(List<Hotel> hotels) {
         theActorInTheSpotlight().attemptsTo(
-                SearchHotel.withTheData(withTheData)
+                SearchHotel.withTheData(hotels)
         );
     }
 

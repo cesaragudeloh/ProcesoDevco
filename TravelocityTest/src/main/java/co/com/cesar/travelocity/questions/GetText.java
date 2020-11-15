@@ -6,6 +6,9 @@ import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.actions.MoveMouse;
 import net.serenitybdd.screenplay.questions.Text;
 import net.serenitybdd.screenplay.targets.Target;
+import net.serenitybdd.screenplay.waits.WaitUntil;
+
+import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 public class GetText implements Question<String> {
 
@@ -18,6 +21,7 @@ public class GetText implements Question<String> {
     @Override
     public String answeredBy(Actor actor) {
         actor.attemptsTo(
+                WaitUntil.the(target, isVisible()).forNoMoreThan(60).seconds(),
                 MoveMouse.to(target)
         );
         return Text.of(target).viewedBy(actor).asString();
