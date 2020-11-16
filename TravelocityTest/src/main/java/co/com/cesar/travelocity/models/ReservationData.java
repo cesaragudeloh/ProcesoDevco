@@ -18,13 +18,24 @@ public class ReservationData {
         return country;
     }
 
+    private void setPhone() {
+        this.phone = "314" + getRandom();
+    }
+
     public String getPhone() {
+        this.setPhone();
         return phone;
     }
 
-    public String getEmail() {
-        return email;
+    private void setEmail() {
+        this.email = "usuario" + getRandom() + "@gmail.com";
     }
+
+    public String getEmail() {
+        this.setEmail();
+        return this.email;
+    }
+
 
     public String getPassword() {
         return password;
@@ -32,5 +43,9 @@ public class ReservationData {
 
     public String getCarProtection() {
         return carProtection;
+    }
+
+    public int getRandom() {
+        return (int) (Math.random() * 10000000 + 1);
     }
 }

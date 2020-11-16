@@ -8,8 +8,11 @@ public class Constants {
     public static final String FOR_A_HOTEL = "Hotels";
     public static final String FOR_A_FLIGHT = "Flights";
     public static final String FOR_A_CARS = "Cars";
+    public static final String FOR_A_THINGS_TO_DO = "Things to do";
 
     public static final String FLIGHT = "flight";
+    public static final String ACTIVITY = "Activity";
+
     public static final String ADULTS = "Adults";
     public static final String AIRLINE = "Airline";
     public static final String PRICE = "Price";
