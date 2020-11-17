@@ -2,7 +2,7 @@
 # Automatización del aplicativo travelocity.com
 
 Se realiza la automatización de la página  https://www.travelocity.com, creando 5 escenarios automatizados y 
-15escenarios de ejecución manual, para un total de 20 escenarios.
+15 escenarios de ejecución manual, para un total de 20 escenarios.
 
  
 
