@@ -12,3 +12,26 @@ Feature: find hotels in the system, using the different search options
       | Neira  | 20-November-2020 | 15-December-2020 | 1              | 0                |
     And locate the cheapest hotel
     Then the system displays the reservation details on the screen
+
+
+  @manual
+  Scenario: Reserve a hotel
+    Given Given I log in to the system
+    When looking for a hotel with more stars
+    And enter the credit card details
+    Then the system makes the reservation and shows me the details on the screen
+
+
+  @manual
+  Scenario: Reserve a hotel with car
+    Given Given I log in to the system
+    When looking for a hotel with car
+    And enter the credit card details
+    Then the system makes the reservation and shows me the details on the screen
+
+  @manual
+  Scenario: Reserve a hotel with car and flight
+    Given Given I log in to the system
+    When looking for a hotel with car and flight
+    And enter the credit card details
+    Then the system makes the reservation and shows me the details on the screen
