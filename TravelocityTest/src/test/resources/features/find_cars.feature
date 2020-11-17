@@ -40,8 +40,8 @@ Feature: find cars in the system, using the different search options
     Then the system makes the reservation and shows me the details on the screen
 
   @manual
-  Scenario: Reserve a rental car with preferred brand and discount type corporate
+  Scenario: Reserve a rental car with preferred brand and discount type special or advertised
     Given I log in to the system
-    When looking for a rental car with preferred brand and discount type corporate
+    When looking for a rental car with preferred brand and discount type special or advertised
     And enter the credit card details
     Then the system makes the reservation and shows me the details on the screen
