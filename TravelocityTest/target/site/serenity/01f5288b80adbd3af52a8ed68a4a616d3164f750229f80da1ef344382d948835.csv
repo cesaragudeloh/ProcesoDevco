@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"find cars in the system, using the different search options","Reserve a rental car","SUCCESS","2020-11-16T20:20:56.058-05:00[America/Bogota]","0.0","84.23"
+"find cruises in the system, using the different search options","Find the cheapest cruise","SUCCESS","2020-11-16T20:22:30.528-05:00[America/Bogota]","0.0","49.45"
+"find flights in the system, using the different search options","Find a one way flight","SUCCESS","2020-11-16T20:23:24.613-05:00[America/Bogota]","0.0","58.07"
+"find hotels in the system, using the different search options","Find the cheapest hotel","SUCCESS","2020-11-16T20:24:27.403-05:00[America/Bogota]","0.0","77.97"
+"find things to do in the system, using the different search options","Find the historical city tour","SUCCESS","2020-11-16T20:25:48.983-05:00[America/Bogota]","0.0","41.09"

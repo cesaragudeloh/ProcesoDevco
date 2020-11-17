@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Travelocity Automation Project</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="0bdfb079f6704ef0cc09e48dd282031559c84a82d2af36a0e75c294cdda647b6.html">Find Hotels In The System, Using The Different Search Options</a></span>
+                > <span class="truncate-60"><a
+                    href="27eaccb443c63ffec399f3ccab5ac9ca92ecfebeeea056a10264dc579b677b9e.html">Find the cheapest hotel </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-11-2020 20:24</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Find Hotels In The System, Using The Different Search Options </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="b282b4d8e415bfb249030fc123ebd753647574918b4e51a40d5e0b64538f71f0.html">Find The Cheapest Hotel
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Find the cheapest hotel
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="7119d91a9ac48f21a1c7f92a01fbf8a1fc715589bf904b1c016f3b6d9cc11c2e.png" title=" Given go to the Travelocity homepage" width="1366"/>
+                <img src="7119d91a9ac48f21a1c7f92a01fbf8a1fc715589bf904b1c016f3b6d9cc11c2e.png" title=" Usuario go" width="1366"/>
+                <img src="7119d91a9ac48f21a1c7f92a01fbf8a1fc715589bf904b1c016f3b6d9cc11c2e.png" title=" usuario opens the Home page" width="1366"/>
+                <img src="7119d91a9ac48f21a1c7f92a01fbf8a1fc715589bf904b1c016f3b6d9cc11c2e.png" title=" Usuario go (completed)" width="1366"/>
+                <img src="7119d91a9ac48f21a1c7f92a01fbf8a1fc715589bf904b1c016f3b6d9cc11c2e.png" title=" Given go to the Travelocity homepage (completed)" width="1366"/>
+                <img src="f45a3a779a4eee6eb00279b76f262db11363560caa6e776a3104836ae7890cae.png" title=" When looking for a hotel
+| goinTo | checkIn | checkOut | travelerAdults | travelerChildren |
+| Neira | 20-November-2020 | 15-December-2020 | 1 | 0 |" width="1366"/>
+                <img src="f45a3a779a4eee6eb00279b76f262db11363560caa6e776a3104836ae7890cae.png" title=" Usuario search hotel" width="1366"/>
+                <img src="f45a3a779a4eee6eb00279b76f262db11363560caa6e776a3104836ae7890cae.png" title=" Usuario choose option" width="1366"/>
+                <img src="f45a3a779a4eee6eb00279b76f262db11363560caa6e776a3104836ae7890cae.png" title=" usuario clicks on Menu option" width="1366"/>
+                <img src="f45a3a779a4eee6eb00279b76f262db11363560caa6e776a3104836ae7890cae.png" title=" Usuario choose option (completed)" width="1366"/>
+                <img src="2df0e999eadcc03c999c36c9aa00c824b4a336f75a9fb9d773493be8ddeba19a.png" title=" usuario clicks on Goin to Option" width="1366"/>
+                <img src="a1a37b7aa20a47921020d2e65f7615e1095f3e7240a7bad866041689b5271e3b.png" title=" usuario enters 'Neira' into Goin to Option" width="1366"/>
+                <img src="abf0e04f8e2f6cd88866af8cab65664306ff5d855186bdf70783a289ea3a061a.png" title=" usuario clicks on First Result" width="1366"/>
+                <img src="0c367e4ddbbc5a5472e1213960bd3fcc8beaea70ca6de7c9fd92373dfb76fa86.png" title=" usuario clicks on Check in option" width="1366"/>
+                <img src="7f9e3b8a210426f0939e7210e72a8666a84eec9d3126e3d08c4e5fd82ff93bdd.png" title=" Usuario choose date" width="1366"/>
+                <img src="7f9e3b8a210426f0939e7210e72a8666a84eec9d3126e3d08c4e5fd82ff93bdd.png" title=" usuario clicks on Choose date" width="1366"/>
+                <img src="072f898efd34f46be42f94bf4b1cf243c532eb6259598e42a4a137bd37ea0800.png" title=" usuario clicks on Save changes and close the date picker" width="1366"/>
+                <img src="072f898efd34f46be42f94bf4b1cf243c532eb6259598e42a4a137bd37ea0800.png" title=" Usuario choose date (completed)" width="1366"/>
+                <img src="d43007095b7c480debe8a65f546ae6d9306ce944b75741163fbbfabbf40c20c7.png" title=" usuario clicks on Check out option" width="1366"/>
+                <img src="0db34316effd86372a12e0ef71c7e9294604d0974bd6fd952a811c76819b778f.png" title=" Usuario choose date" width="1366"/>
+                <img src="0db34316effd86372a12e0ef71c7e9294604d0974bd6fd952a811c76819b778f.png" title=" usuario clicks on Choose date" width="1366"/>
+                <img src="7bc4337f3b519c789827074262870f3ce954e3e946227a239c228f402814cd54.png" title=" usuario clicks on Save changes and close the date picker" width="1366"/>
+                <img src="7bc4337f3b519c789827074262870f3ce954e3e946227a239c228f402814cd54.png" title=" Usuario choose date (completed)" width="1366"/>
+                <img src="df8347c1aa4ef24b09c5176e1b6e086cf8af4da11e12824fe87c31476acc191c.png" title=" usuario clicks on Travelers" width="1366"/>
+                <img src="44b5b45566a142dafdcb9b1dd3192de4eb00b4cbd2d14e8d101b98394fee7c80.png" title=" usuario clicks on Decrease adults button" width="1366"/>
+                <img src="ac4cd6fac1719bfcea266eb461be3ff3cb9cea4a104938ccd5751be8d0bc9272.png" title=" usuario clicks on Save Travelers" width="1366"/>
+                <img src="78dfb3ddc7399e1fc8f478d2a4eed74ab2099f5380e4d69c08ba50aef0f095aa.png" title=" usuario clicks on Search button" width="1366"/>
+                <img src="78dfb3ddc7399e1fc8f478d2a4eed74ab2099f5380e4d69c08ba50aef0f095aa.png" title=" Usuario search hotel (completed)" width="1366"/>
+                <img src="78dfb3ddc7399e1fc8f478d2a4eed74ab2099f5380e4d69c08ba50aef0f095aa.png" title=" When looking for a hotel
+| goinTo | checkIn | checkOut | travelerAdults | travelerChildren |
+| Neira | 20-November-2020 | 15-December-2020 | 1 | 0 | (completed)" width="1366"/>
+                <img src="0daec685ede0f358ded24311e92efcf6dad6dafa3c6cff8753e2931cc38e775b.png" title=" And locate the cheapest hotel" width="1366"/>
+                <img src="0daec685ede0f358ded24311e92efcf6dad6dafa3c6cff8753e2931cc38e775b.png" title=" Usuario choose hotel" width="1366"/>
+                <img src="0daec685ede0f358ded24311e92efcf6dad6dafa3c6cff8753e2931cc38e775b.png" title=" usuario select Price on Short by option" width="1366"/>
+                <img src="811659a59d5cabf0d2e9615444787983a2fc32e063287c1a0381744d892fc749.png" title=" usuario clicks on First hotel" width="1366"/>
+                <img src="ed933a11b6fd60d6121fecbf4e5b59d27df0a7205cf19d48144445a01f8e3642.png" title=" Usuario change" width="1366"/>
+                <img src="88054ed517519c7c68b5f0b1de4b5b3620b63c933402623dc44c044924a1f4ae.png" title=" usuario clicks on Reserve a room" width="1366"/>
+                <img src="af4c92a114fca6b44dfcd999b9d1351420121c5812fde20ae7ea080876506a45.png" title=" usuario clicks on Reserve button" width="1366"/>
+                <img src="e273b8e0bae5fa77c92d8e34dd745573320c1cab361b10ff948a8d2f91e27f49.png" title=" usuario clicks on Close modal booking" width="1366"/>
+                <img src="e273b8e0bae5fa77c92d8e34dd745573320c1cab361b10ff948a8d2f91e27f49.png" title=" Usuario choose hotel (completed)" width="1366"/>
+                <img src="e273b8e0bae5fa77c92d8e34dd745573320c1cab361b10ff948a8d2f91e27f49.png" title=" And locate the cheapest hotel (completed)" width="1366"/>
+                <img src="5d4ff5e74bce4b8a3d05f5addc5d4ed76c8e9f5e16e917fbb41a463a84408d6a.png" title=" Then the system displays the reservation details on the screen" width="1366"/>
+                <img src="5d4ff5e74bce4b8a3d05f5addc5d4ed76c8e9f5e16e917fbb41a463a84408d6a.png" title=" Then Complete Booking should be 'Complete Booking'" width="1366"/>
+                <img src="5d4ff5e74bce4b8a3d05f5addc5d4ed76c8e9f5e16e917fbb41a463a84408d6a.png" title=" Then the system displays the reservation details on the screen (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>

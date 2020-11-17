@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"find hotels in the system, using the different search options","Find the cheapest hotel","SUCCESS","2020-11-16T20:24:27.403-05:00[America/Bogota]","0.0","77.97"
+"find hotels in the system, using the different search options","Reserve a hotel","PENDING","2020-11-16T20:25:46.644-05:00[America/Bogota]","0.0","0.04"
+"find hotels in the system, using the different search options","Reserve a hotel with car","PENDING","2020-11-16T20:25:46.686-05:00[America/Bogota]","0.0","0.04"
+"find hotels in the system, using the different search options","Reserve a hotel with car and flight","PENDING","2020-11-16T20:25:46.726-05:00[America/Bogota]","0.0","0.02"

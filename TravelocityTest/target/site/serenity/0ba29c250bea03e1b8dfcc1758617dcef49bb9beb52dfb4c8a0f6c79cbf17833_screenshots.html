@@ -1,0 +1,272 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Travelocity Automation Project</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="39de935868499b01716799e3cc835fec554a04ad74f0e865fdb35e4f41e00632.html">Find Cars In The System, Using The Different Search Options</a></span>
+                > <span class="truncate-60"><a
+                    href="0ba29c250bea03e1b8dfcc1758617dcef49bb9beb52dfb4c8a0f6c79cbf17833.html">Reserve a rental car </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-11-2020 20:20</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Find Cars In The System, Using The Different Search Options </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="70b1c18ab014e9dca47c62052d6350c738c53451b021e91182405a0c04ed67dc.html">Reservearentalcar
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Reserve a rental car
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="7119d91a9ac48f21a1c7f92a01fbf8a1fc715589bf904b1c016f3b6d9cc11c2e.png" title=" Given go to the Travelocity homepage" width="1366"/>
+                <img src="7119d91a9ac48f21a1c7f92a01fbf8a1fc715589bf904b1c016f3b6d9cc11c2e.png" title=" Usuario go" width="1366"/>
+                <img src="7119d91a9ac48f21a1c7f92a01fbf8a1fc715589bf904b1c016f3b6d9cc11c2e.png" title=" usuario opens the Home page" width="1366"/>
+                <img src="8c3e9f8422c12a9beb11427a9e6d6c867c51743c93cc576339278bf682490a8b.png" title=" Usuario go (completed)" width="1366"/>
+                <img src="8c3e9f8422c12a9beb11427a9e6d6c867c51743c93cc576339278bf682490a8b.png" title=" Given go to the Travelocity homepage (completed)" width="1366"/>
+                <img src="87f33748035a06a764f440c0d00d8d98e59b495c99672f91cca579882ee2296f.png" title=" When looking for a rental car
+| pickUp | dropOff | pickUpDate | dropOffDate | pickUpTime | dropOffTime | carType | specification |
+| Bogot&aacute; | Bogot&aacute; | 16-December-2020 | 28-December-2020 | 08:00 | 23:00 | SUV | Automatic |" width="1366"/>
+                <img src="87f33748035a06a764f440c0d00d8d98e59b495c99672f91cca579882ee2296f.png" title=" Usuario search rental car" width="1366"/>
+                <img src="87f33748035a06a764f440c0d00d8d98e59b495c99672f91cca579882ee2296f.png" title=" Usuario choose option" width="1366"/>
+                <img src="87f33748035a06a764f440c0d00d8d98e59b495c99672f91cca579882ee2296f.png" title=" usuario clicks on Menu option" width="1366"/>
+                <img src="87f33748035a06a764f440c0d00d8d98e59b495c99672f91cca579882ee2296f.png" title=" Usuario choose option (completed)" width="1366"/>
+                <img src="87f33748035a06a764f440c0d00d8d98e59b495c99672f91cca579882ee2296f.png" title=" usuario clicks on Rental car" width="1366"/>
+                <img src="2ce154d8876eb52743107fd7ea1454e631aced212c9308660be05109eb2ff257.png" title=" usuario clicks on Pick up option" width="1366"/>
+                <img src="a5dfb8f0d8ae04cc3904e95e836e368e715435208e0de6e349d74b6e2aab66a8.png" title=" usuario enters 'Bogot&aacute;' into Pick up input" width="1366"/>
+                <img src="ce3cff473326fc356df2266d43979661c57b4d95f3ae65d3fa4ae71ebbf73320.png" title=" usuario clicks on First result pick up" width="1366"/>
+                <img src="1f88073fe72e13c890aa069cd6af04655f44d245c9dca0faf638f6c7ec51a4f3.png" title=" usuario clicks on Drop off option" width="1366"/>
+                <img src="afc4f22859703410f5dccf4d3f1e714a5387f87d8f10d1fe7d7d014aad647ee1.png" title=" usuario enters 'Bogot&aacute;' into Drop off input" width="1366"/>
+                <img src="0c25f80f0721fc6bab2f4610f45ee2290015190c7ea078adb68cd32de77f3301.png" title=" usuario clicks on First result drop off" width="1366"/>
+                <img src="cd11fdc3f069638458ebc5dab03535227039cc1205b9408ab747375866019a66.png" title=" usuario clicks on Pick up date option" width="1366"/>
+                <img src="b11df3a9aad6ed5de8fc7bca5eb9e96b1e3e1ce56c7ad66bf9cbf4a4aa8edd12.png" title=" Usuario choose date" width="1366"/>
+                <img src="b11df3a9aad6ed5de8fc7bca5eb9e96b1e3e1ce56c7ad66bf9cbf4a4aa8edd12.png" title=" usuario clicks on Choose date" width="1366"/>
+                <img src="8f10296cd8fb726cd88a6911c5a57eb28a0ae59957db55f6dec154d1dc21de6d.png" title=" usuario clicks on Save changes and close the date picker" width="1366"/>
+                <img src="8f10296cd8fb726cd88a6911c5a57eb28a0ae59957db55f6dec154d1dc21de6d.png" title=" Usuario choose date (completed)" width="1366"/>
+                <img src="ff88929c750c25030db757daaf74bce4de5916e10620167e9ab04105f9ba397b.png" title=" usuario clicks on Drop off date option" width="1366"/>
+                <img src="6b922625754176f3d789da4555fbc31e6be190c707c5e2fa777bf3ff11ab85f5.png" title=" Usuario choose date" width="1366"/>
+                <img src="6b922625754176f3d789da4555fbc31e6be190c707c5e2fa777bf3ff11ab85f5.png" title=" usuario clicks on Choose date" width="1366"/>
+                <img src="f42f1547bab50380bb74a01cae3f055800b8eb1a35a83950b523e88aca85af02.png" title=" usuario clicks on Save changes and close the date picker" width="1366"/>
+                <img src="f42f1547bab50380bb74a01cae3f055800b8eb1a35a83950b523e88aca85af02.png" title=" Usuario choose date (completed)" width="1366"/>
+                <img src="ec3829bee5f9932dabe8a7e2d5e5341360480c660821355273bfdb33ab981145.png" title=" usuario select 08:00 on Pick up time option" width="1366"/>
+                <img src="d4046a072df11fa85376f8645c003325565e3088bb7fe18531dcc84752e28d53.png" title=" usuario select 23:00 on Drop off time option" width="1366"/>
+                <img src="1f08c5027a5bfeea21d07c3680e8c2a3cb9592e27fb08fd3715d32ff89d65a53.png" title=" usuario clicks on Search button" width="1366"/>
+                <img src="1f08c5027a5bfeea21d07c3680e8c2a3cb9592e27fb08fd3715d32ff89d65a53.png" title=" Usuario search rental car (completed)" width="1366"/>
+                <img src="1f08c5027a5bfeea21d07c3680e8c2a3cb9592e27fb08fd3715d32ff89d65a53.png" title=" When looking for a rental car
+| pickUp | dropOff | pickUpDate | dropOffDate | pickUpTime | dropOffTime | carType | specification |
+| Bogot&aacute; | Bogot&aacute; | 16-December-2020 | 28-December-2020 | 08:00 | 23:00 | SUV | Automatic | (completed)" width="1366"/>
+                <img src="1a3750e97b6fd9fbf37de0e0d6d0122bf3160b7a5fb5e6b68df99a12e066c940.png" title=" And I locate the cheapest car and enter the reservation data
+| name | country | phone | email | password | carProtection |
+| Camila Lopez | Colombia | 3124789589 | camila@gmail.com | camila123* | NOT |" width="1366"/>
+                <img src="1a3750e97b6fd9fbf37de0e0d6d0122bf3160b7a5fb5e6b68df99a12e066c940.png" title=" Usuario choose rental car" width="1366"/>
+                <img src="1a3750e97b6fd9fbf37de0e0d6d0122bf3160b7a5fb5e6b68df99a12e066c940.png" title=" usuario clicks on Show more car type" width="1366"/>
+                <img src="d7ec1b69d9858965fce78daff63282b84a0038229ca0ad23fb2af972f7b8cfd6.png" title=" usuario clicks on Choose input option" width="1366"/>
+                <img src="1a195deef40cbbc9d8d1270bab44df26dc432217634a8691542672ec41fdba8f.png" title=" usuario clicks on Choose input option" width="1366"/>
+                <img src="3b688189233b4984e0b989e5c3e38664780f943a39d0bd5fb7de048645f5277a.png" title=" usuario select Total Price on Sort by option" width="1366"/>
+                <img src="ccb8c5c55d7380c31d5dc3f2ae2524c899f821622e6008b62d977384c039018c.png" title=" usuario clicks on First rental car" width="1366"/>
+                <img src="2b3b14cf5dbeb47087e248ef1034a7140ea81db366469ef74a49d83655771d4e.png" title=" Usuario change" width="1366"/>
+                <img src="86fca60c3378aed3e6ccc743c1af9aecf8320e5e9611c92c7c5c192961162be3.png" title=" usuario clicks on Reserve button" width="1366"/>
+                <img src="52a45c92ad0894c4c0f633a8afd48b8133f90dcacd820d61c944946baffdc756.png" title=" Usuario reserve" width="1366"/>
+                <img src="52a45c92ad0894c4c0f633a8afd48b8133f90dcacd820d61c944946baffdc756.png" title=" usuario enters 'Camila Lopez' into Name input" width="1366"/>
+                <img src="9c1e733926e853852b652023b2d4920f1da364a96358cd422ba624bec2e54dc1.png" title=" usuario clicks on Country input" width="1366"/>
+                <img src="b56d05414588c46f9eca075597463f459cab57416e7eb1fec2e1ac927d403e3b.png" title=" usuario enters '3147360385' into Phone input" width="1366"/>
+                <img src="e0336b69982fd412257b6651828a7f5c164c5c57fc32858c54624b56c7b4afaf.png" title=" usuario clicks on Car protection not" width="1366"/>
+                <img src="41a79d8b1bb669315324b6b1d22b12caa988e67f891051074ee289046d76c3ba.png" title=" usuario enters 'usuario8584011@gmail.com' into Email input" width="1366"/>
+                <img src="beeaec93e33e6f0a66332fd7185bb674ac2c879224d0a647546bc5ed58e80ada.png" title=" usuario enters 'camila123*' into Password input" width="1366"/>
+                <img src="6b23b2b6b1ab0568265dc161ab21ce3abdcec12cebf36fb3734622d26689f735.png" title=" usuario enters 'camila123*' into Repeat password input" width="1366"/>
+                <img src="9268830b3b77d9aec919c4a004dfaef24cc5f0d54da2155a8124ff6945b732e9.png" title=" usuario clicks on Reserve now button" width="1366"/>
+                <img src="9268830b3b77d9aec919c4a004dfaef24cc5f0d54da2155a8124ff6945b732e9.png" title=" Usuario reserve (completed)" width="1366"/>
+                <img src="9268830b3b77d9aec919c4a004dfaef24cc5f0d54da2155a8124ff6945b732e9.png" title=" Usuario choose rental car (completed)" width="1366"/>
+                <img src="7a30082d20322c94521ac3200a9611aada5a42cc8f26cd2d461654fc6eebbbbe.png" title=" And I locate the cheapest car and enter the reservation data
+| name | country | phone | email | password | carProtection |
+| Camila Lopez | Colombia | 3124789589 | camila@gmail.com | camila123* | NOT | (completed)" width="1366"/>
+                <img src="88662b399991c04beff39e4f35762df08815b4ccde9e6d2c30fe1d2de1d4b510.png" title=" Then the reservation is made and the message &quot;Thank you! Your trip is booked.&quot; is displayed" width="1366"/>
+                <img src="88662b399991c04beff39e4f35762df08815b4ccde9e6d2c30fe1d2de1d4b510.png" title=" Then Reserve completed should be 'Thank you! Your trip is booked.'" width="1366"/>
+                <img src="88662b399991c04beff39e4f35762df08815b4ccde9e6d2c30fe1d2de1d4b510.png" title=" Then the reservation is made and the message &quot;Thank you! Your trip is booked.&quot; is displayed (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
