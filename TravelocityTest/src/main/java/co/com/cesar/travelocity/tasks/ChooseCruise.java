@@ -21,9 +21,7 @@ public class ChooseCruise implements Task {
                 Click.on(FIRST_BUTTON_CONTINUE),
                 Change.toNewWindow(),
                 Click.on(CABIN_EXPERIENCE_BUTTON),
-                Click.on(CABIN_TYPE_BUTTON)
-                //Click.on(SELECT_RATE_BUTTON),
-                //WaitUntil.the(SEARCHING, isNotVisible()).forNoMoreThan(20).seconds()
+                Click.on(CABIN_TYPE_BUTTON)               
         );
     }
 
