@@ -15,7 +15,7 @@ Se define la ruta critica donde se abarcan los escenarios de búsqueda de hotele
 Para ejecutar el proyecto de automatización se requiere:
  
  	•   Java JDK 1.8 
- 	•   Gradle versión 6.10 o superior. 	•   
+ 	•   Gradle versión 6.10 o superior 
  	•   Google Chrome versión  86.0.4240
 
 # FRAMEWORK
