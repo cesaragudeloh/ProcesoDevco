@@ -9,7 +9,6 @@
 .idea/*
 */.idea
 */history/
-*/target/
 *.iml
 *.iws
 
@@ -18,7 +17,6 @@
 
 # Maven
 log/
-/target/*
 /bin/*
 
 # Gradle

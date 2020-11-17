@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"find cars in the system, using the different search options","Reserve an Airport Transportation","PENDING","2020-11-16T20:22:21.828-05:00[America/Bogota]","0.0","0.03"
+"find cars in the system, using the different search options","Reserve a rental car with preferred brand but without discount code","PENDING","2020-11-16T20:22:21.865-05:00[America/Bogota]","0.0","0.02"
+"find cars in the system, using the different search options","Reserve a rental car with preferred brand and discount type corporate","PENDING","2020-11-16T20:22:21.885-05:00[America/Bogota]","0.0","0.04"

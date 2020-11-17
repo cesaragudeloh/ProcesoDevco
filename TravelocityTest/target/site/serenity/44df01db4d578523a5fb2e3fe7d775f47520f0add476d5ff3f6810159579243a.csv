@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"find flights in the system, using the different search options","Reserve a multi city flight","PENDING","2020-11-16T20:24:24.258-05:00[America/Bogota]","0.0","0.04"
+"find flights in the system, using the different search options","Reserve a roundtrip flight","PENDING","2020-11-16T20:24:24.313-05:00[America/Bogota]","0.0","0.02"
+"find flights in the system, using the different search options","Reserve a roundtrip flight with car","PENDING","2020-11-16T20:24:24.343-05:00[America/Bogota]","0.0","0.01"
+"find flights in the system, using the different search options","Reserve a flight with car and place to stay","PENDING","2020-11-16T20:24:24.361-05:00[America/Bogota]","0.0","0.01"

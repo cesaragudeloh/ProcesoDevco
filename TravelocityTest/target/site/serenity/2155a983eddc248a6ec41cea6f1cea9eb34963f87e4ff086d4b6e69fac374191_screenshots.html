@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Travelocity Automation Project</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="5b1b679069e6f19e70129645f72a922f0c983ef91c89574f359035229165ed8d.html">Find Cruises In The System, Using The Different Search Options</a></span>
+                > <span class="truncate-60"><a
+                    href="2155a983eddc248a6ec41cea6f1cea9eb34963f87e4ff086d4b6e69fac374191.html">Find the cheapest cruise </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-11-2020 20:22</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Find Cruises In The System, Using The Different Search Options </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="b90bd2ff857a1fda5bf1b94db169b65d533d9f92f8ca7474a9f82858234788f2.html">Find The Cheapest Cruise
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Find the cheapest cruise
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="12681b8b5a33e58476e37b4a1f624092d9f69dcaf72949b561267297ea35a9b2.png" title=" Given go to the Travelocity homepage" width="1366"/>
+                <img src="12681b8b5a33e58476e37b4a1f624092d9f69dcaf72949b561267297ea35a9b2.png" title=" Usuario go" width="1366"/>
+                <img src="12681b8b5a33e58476e37b4a1f624092d9f69dcaf72949b561267297ea35a9b2.png" title=" usuario opens the Home page" width="1366"/>
+                <img src="12681b8b5a33e58476e37b4a1f624092d9f69dcaf72949b561267297ea35a9b2.png" title=" Usuario go (completed)" width="1366"/>
+                <img src="12681b8b5a33e58476e37b4a1f624092d9f69dcaf72949b561267297ea35a9b2.png" title=" Given go to the Travelocity homepage (completed)" width="1366"/>
+                <img src="ddbac9407657c432f58cdb8f17c7e87edbf396aa0354e704934c7c294d57c97d.png" title=" When I looking for a cruise
+| goingTo | traveles | departsAsEarlyAs | departsAslateAs |
+| Caribbean | 2 | 1-June-2021 | 30-June-2021 |" width="1366"/>
+                <img src="ddbac9407657c432f58cdb8f17c7e87edbf396aa0354e704934c7c294d57c97d.png" title=" Usuario find cruise" width="1366"/>
+                <img src="ddbac9407657c432f58cdb8f17c7e87edbf396aa0354e704934c7c294d57c97d.png" title=" Usuario choose option" width="1366"/>
+                <img src="ddbac9407657c432f58cdb8f17c7e87edbf396aa0354e704934c7c294d57c97d.png" title=" usuario clicks on Menu option" width="1366"/>
+                <img src="ddbac9407657c432f58cdb8f17c7e87edbf396aa0354e704934c7c294d57c97d.png" title=" Usuario choose option (completed)" width="1366"/>
+                <img src="351e4a22b476eb9f9ed1a8cb4139e481e14f76d4b8229b496f4721525a022b73.png" title=" usuario select Caribbean on Destination option" width="1366"/>
+                <img src="4fafca7141028365b8c1351596c1ada21b7167d28f3333ea7cf3fb81827694b3.png" title=" usuario clicks on Travelers option" width="1366"/>
+                <img src="c53070b87bf13dfaa78804c2e41314dfcb87402fa93f0a899e6ab9a53d8847ee.png" title=" usuario clicks on Save Travelers" width="1366"/>
+                <img src="bcbf7fac800d6aa22e0c2e6f143f84643147d2e680822f5449e691a0fac3f009.png" title=" usuario clicks on Departs as early as option" width="1366"/>
+                <img src="982bdd276e28bc5a49112682f7bc4ff8fe442ae1b2a304867030bd8822e69c27.png" title=" Usuario press button" width="1366"/>
+                <img src="982bdd276e28bc5a49112682f7bc4ff8fe442ae1b2a304867030bd8822e69c27.png" title=" usuario clicks on Next month option" width="1366"/>
+                <img src="a78e88ecc36c534e7f83436f4456398a5c569540c89545b930cdcbd7fe258a3b.png" title=" usuario clicks on Next month option" width="1366"/>
+                <img src="f2d44272823d3e264f549d37021f731d716f402d9f16ee61563461f585e178ef.png" title=" usuario clicks on Next month option" width="1366"/>
+                <img src="f49ca086337fbee86d06dfcaf339576d8511245106c3ef7d1fb58db5345398f5.png" title=" usuario clicks on Next month option" width="1366"/>
+                <img src="eeb5f9f8d93bf7a95633c708d0d2c7d67da4a280989c53ad8763734f0b71b3d5.png" title=" usuario clicks on Next month option" width="1366"/>
+                <img src="a7ab0271a2abfc344ed52ccd68456cf7af8199314a8ea3adad16d181bfd3eb4c.png" title=" usuario clicks on Next month option" width="1366"/>
+                <img src="4e24dcf138a1f4166fbc483a8abdd5e37350d9d33d7295b96f17c369ab2ca89c.png" title=" usuario clicks on Next month option" width="1366"/>
+                <img src="4e24dcf138a1f4166fbc483a8abdd5e37350d9d33d7295b96f17c369ab2ca89c.png" title=" Usuario press button (completed)" width="1366"/>
+                <img src="e4984684e7fdca486f007efe8d40805cc985a320231a1eabeb56e8a2ef935894.png" title=" Usuario choose date" width="1366"/>
+                <img src="e4984684e7fdca486f007efe8d40805cc985a320231a1eabeb56e8a2ef935894.png" title=" usuario clicks on Choose date" width="1366"/>
+                <img src="eecb02c2b29001473af919976663d25b6d663a88febd65e5c94ed3ae5af5988d.png" title=" usuario clicks on Save changes and close the date picker" width="1366"/>
+                <img src="eecb02c2b29001473af919976663d25b6d663a88febd65e5c94ed3ae5af5988d.png" title=" Usuario choose date (completed)" width="1366"/>
+                <img src="0f65c3b66341dccdc751634581735839884b657040a665bf01e7b23a9442ff2b.png" title=" usuario clicks on Departs as late as option" width="1366"/>
+                <img src="5c7e4a02f9b65da52aefe6e21c66128ac11feb3e68af3b6229f6057355e1a988.png" title=" Usuario choose date" width="1366"/>
+                <img src="5c7e4a02f9b65da52aefe6e21c66128ac11feb3e68af3b6229f6057355e1a988.png" title=" usuario clicks on Choose date" width="1366"/>
+                <img src="22a065ed55e0f261a0d7cbb04708480b574854e9a051bb1ce56cb22ffa195daf.png" title=" usuario clicks on Save changes and close the date picker" width="1366"/>
+                <img src="22a065ed55e0f261a0d7cbb04708480b574854e9a051bb1ce56cb22ffa195daf.png" title=" Usuario choose date (completed)" width="1366"/>
+                <img src="09f636bb34ca1da7e5f73abe5cc55f585a8cd475f10ad8cdc7b0f3f4dcd321fe.png" title=" usuario clicks on Search button" width="1366"/>
+                <img src="09f636bb34ca1da7e5f73abe5cc55f585a8cd475f10ad8cdc7b0f3f4dcd321fe.png" title=" Usuario find cruise (completed)" width="1366"/>
+                <img src="09f636bb34ca1da7e5f73abe5cc55f585a8cd475f10ad8cdc7b0f3f4dcd321fe.png" title=" When I looking for a cruise
+| goingTo | traveles | departsAsEarlyAs | departsAslateAs |
+| Caribbean | 2 | 1-June-2021 | 30-June-2021 | (completed)" width="1366"/>
+                <img src="1fc913fa433ed0171c003cb7da2b9a8b469cfbeb46dc67d0841d1c4d386fed95.png" title=" And I select a cruise with all its properties" width="1366"/>
+                <img src="1fc913fa433ed0171c003cb7da2b9a8b469cfbeb46dc67d0841d1c4d386fed95.png" title=" Usuario choose cruise" width="1366"/>
+                <img src="1fc913fa433ed0171c003cb7da2b9a8b469cfbeb46dc67d0841d1c4d386fed95.png" title=" usuario clicks on Sort option" width="1366"/>
+                <img src="b6917ec5891fbcbe1b8700cfb89e0eb78192d970e7831a1f67bf65eea38c4db4.png" title=" usuario clicks on First button continue" width="1366"/>
+                <img src="2d563a0c5fbd3aea2a645260c75946f3e69ca498f472689117a9ffa1f0b5f663.png" title=" Usuario change" width="1366"/>
+                <img src="ef01f614f24a13db27b8fde5666184b3b11a5356a6e8f81c6ed5e03a03888410.png" title=" usuario clicks on Cabin experience button" width="1366"/>
+                <img src="a21d70a1420e0fe36b55909d009ad8c33c1052db1b380a49817918b4485022d3.png" title=" usuario clicks on Cabin type button" width="1366"/>
+                <img src="a21d70a1420e0fe36b55909d009ad8c33c1052db1b380a49817918b4485022d3.png" title=" Usuario choose cruise (completed)" width="1366"/>
+                <img src="a21d70a1420e0fe36b55909d009ad8c33c1052db1b380a49817918b4485022d3.png" title=" And I select a cruise with all its properties (completed)" width="1366"/>
+                <img src="1a4fe9a194c9e10f3d3b55f5f686cd38a7b5822f47d4094cdaeb7b7b1a53f566.png" title=" Then the system displays the review of the cruise to be booked" width="1366"/>
+                <img src="1a4fe9a194c9e10f3d3b55f5f686cd38a7b5822f47d4094cdaeb7b7b1a53f566.png" title=" Then Summary Trip should be not an empty string" width="1366"/>
+                <img src="1a4fe9a194c9e10f3d3b55f5f686cd38a7b5822f47d4094cdaeb7b7b1a53f566.png" title=" Then the system displays the review of the cruise to be booked (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
