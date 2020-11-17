@@ -87,14 +87,14 @@ Es muy usada en los #hashTags de Twitter o en lenguajes como Java, PHP, C#…
 Normalmente el proyecto se puede ejecutar desde cualquier IDE, desde las opciones de ejecución que éste posea. Sin embargo, si se desea ejecutar 
 desde el pipeline RM o desde una línea de comandos, podemos usar las siguientes instrucciones:
 	
-	•	clean test aggregate (1)
-	•	clean test --tests NOMBRE_RUNNEER aggregate (2)
+	•	gradlew clean test aggregate (1)
+	•	gradlew clean test --tests NOMBRE_RUNNEER aggregate (2)
 	
 También se puede ejecutar el proyecto desde una linea de comandos y sin necesidad de tener instalado un IDE. Para ello
 solo debemos posicionarnos dentro del proyecto, es decir, el directorio TravelocitiTest y escribir los comandos:
 
 	•	gradlew clean test aggregate (1)
-	•	clean test --tests NOMBRE_RUNNEER aggregate (2)
+	•	gradlew clean test --tests NOMBRE_RUNNEER aggregate (2)
 	
 Nota: El primero ejecuta todos los tests y el segundo ejecuta un test en particular.	
 	
