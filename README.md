@@ -2,9 +2,35 @@
 # Automatización del aplicativo travelocity.com
 
 Se realiza la automatización de la página  https://www.travelocity.com, creando 5 escenarios automatizados y 
-15 escenarios de ejecución manual, para un total de 20 escenarios.
+15 escenarios de ejecución manual, para un total de 20 escenarios, así:
 
- 
+### Escenarios automatizados:
+
+    1)   Reserve a rental car
+    2)   Find the cheapest cruise
+    3)   Find a one way flight
+    4)   Find the cheapest hotel
+    5)   Find the historical city tour
+
+### Escenarios de ejecución manual:
+
+     1)   Reserve an Airport Transportation
+     2)   Reserve a rental car with preferred brand but without discount code
+     3)   Reserve a rental car with preferred brand and discount type corporate
+     4)   Reserve a rental car with preferred brand and discount type special or advertised
+     5)   Reserve the cheapest cruise
+     6)   Cancell reserve the cheapest cruise
+     7)   Reserve a multi city flight
+     8)   Reserve a roundtrip flight
+     9)   Reserve a roundtrip flight with car
+     10)  Reserve a flight with car and place to stay
+     11)  Reserve a hotel
+     12)  Reserve a hotel with car
+     13)  Reserve a hotel with car and flight
+     14)  Reserve an activity to do
+     15)  Reserve a vacation rentals
+     
+Nota: Con el fin de hacer repetible el escenario "Reserve a rental car", en cada ejecución se generan un correo y un número de teléfono aleatorio para hacer la reserva.     
 
 # ESTRATEGIA DE AUTOMATIZACION
 
@@ -64,11 +90,19 @@ desde el pipeline RM o desde una línea de comandos, podemos usar las siguientes
 	•	clean test aggregate (1)
 	•	clean test --tests NOMBRE_RUNNEER aggregate (2)
 	
+También se puede ejecutar el proyecto desde una linea de comandos y sin necesidad de tener instalado un IDE. Para ello
+solo debemos posicionarnos dentro del proyecto, es decir, el directorio TravelocitiTest y escribir los comandos:
+
+	•	gradlew clean test aggregate (1)
+	•	clean test --tests NOMBRE_RUNNEER aggregate (2)
+	
+Nota: El primero ejecuta todos los tests y el segundo ejecuta un test en particular.	
+	
 La opción (1) ejecutará todos los runners del proyecto, mientras que la opción (2) ejecutará únicamente el runner que se indique.
 
 Al ejecutar los tests, las evidencias de la ejecución de las pruebas quedarán en el directorio:
 
-	•	$(Repository.Name)/target/site/serenity
+	•	$(Repository.Name)/TravelovityTest/target/site/serenity
 
 
 # DETALLES GENERALES DE LA IMPLEMENTACIÓN
